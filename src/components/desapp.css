@@ -1,0 +1,78 @@
+
+
+.applist{
+    padding: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(230deg,rgb(15, 14, 15),rgb(126, 5, 5));
+}
+
+.container{
+    height: 85vh;
+    display: flex;
+    border: 2px solid gold;
+    padding-top: 15px;
+    padding-left: 5px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+h1{
+    margin: 0;
+    padding-bottom: 20px;
+    color: goldenrod;
+}
+
+.inputlist{
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+button{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.alltodos{
+    overflow-y: scroll;
+    margin: 10px;
+    padding: 0;
+
+}
+.singletodo{
+    border-radius: 50px;
+    margin: 10px 0;
+    background-color: rgb(26, 4, 31);
+    padding: 8px 15px;
+    display: flex;
+    width:450px;
+    align-items: center;
+}
+.todotext{
+    flex: 1;
+}
+
+.edit{
+    background: rgb(4, 111, 153);
+    color: white;
+}
+.delete{
+    background: rgb(237, 227, 34);
+    color:black;
+}
+.insert{
+    background: rgb(4, 124, 24);
+    color: white;
+}
